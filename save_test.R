@@ -25,3 +25,7 @@ TRUE | FALSE & FALSE #TRUE
 # 리스트 인덱싱 기능 확인
 a <- c(1,2,3,4,5,6)
 a[3]
+
+install.packages("readxl")
+library(readxl)
+test <- read_excel("")
